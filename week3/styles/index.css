@@ -1,0 +1,28 @@
+header {
+  background: green;
+  width: 50%;
+  min-width: 400px;
+  position: fixed; /*takes many values. fixed makes it "freeze" the element*/
+  top: 0; /**/
+}
+
+nav {
+  background: purple;
+}
+
+article {
+  background: orange;
+  float: left; /*takes up only the space it needs*/
+}
+
+aside {
+  background: blue;
+  float: left;
+}
+
+footer {
+  clear: left; /*clear is a sibling of float property*/
+}
+
+
+
